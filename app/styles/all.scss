@@ -12,8 +12,12 @@
 // @import "components/article";
 
 @import "global/reset.scss";
-@import "global/_bootstrap";
 @import "global/_variаble";
+
+@import "global/fonts";
+@import "global/style-icon";
+
+@import "global/_bootstrap";
 
 @import "components/header";
 @import "components/global-style-site";

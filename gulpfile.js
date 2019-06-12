@@ -57,7 +57,6 @@ gulp.task('html:build', () => gulp.src(config.paths.entry.pages)
 gulp.task('html:clean', () => gulp.src(config.paths.output.pages).pipe(clean({force: true})));
 
 gulp.task('images', () => gulp.src(config.paths.entry.images)
-    .pipe(imagemin())
     .pipe(gulp.dest(config.paths.output.images)));
 
 //build clean
