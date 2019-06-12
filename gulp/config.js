@@ -20,7 +20,7 @@ module.exports = {
             scripts: ['app/scripts/*', 'app/scripts/**/*', 'app/scripts/**/**/*'],
             pages: ['app/pages/*.html'],
             images: ['app/images/*'],
-            fonts: ['app/styles/fonts/*{ttf,woff,woff2,svg,eot}']
+            fonts: ['app/styles/fonts/*{ttf,woff,woff2,svg,eot}', 'app/styles/fonts/**/*{ttf,woff,woff2,svg,eot}', 'app/styles/fonts/**/**/*{ttf,woff,woff2,svg,eot}']
         },
         output: {
             styles: ['build/css'],
