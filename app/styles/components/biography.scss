@@ -1,0 +1,119 @@
+.biography {
+    font-family: 'Playfair Display', serif;
+    color: $light-pink;
+    margin-bottom: 250px;
+        .foto-mueller img{
+            max-width: 100%;
+        }  
+        .about_mueller {
+            .about {
+                font-size: 72px;
+                margin-bottom: 125px;
+            }
+            .stylist{
+                font-size: 56px;
+                color: $text;
+                margin-bottom: 70px;
+                span {
+                    color: $light-pink;
+                }
+            }
+            .biografy-mueller{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+                color: $text;
+                margin-bottom: 90px;            
+            }            
+            .more {
+                display: inline-block;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 200;
+                font-size: 24px;
+                text-align: center;
+                width: 290px;
+                padding: 20px 0;
+                color: $light;
+                border-top: 1px solid $light;
+                border-bottom: 1px solid $light;
+                text-align: center;
+                text-transform: uppercase;            
+            }
+        }
+}
+    @media (max-width: 767px) { 
+        .biography {
+                margin-bottom: 90px;
+            .foto-mueller{                
+                text-align: center;
+                img {max-width: 60%;
+                }
+            } 
+            .about_mueller {
+                text-align: center;
+                .about, .stylist {
+                font-size: 30px;
+                margin-bottom: 30px;
+                }
+                .biografy-mueller{
+                    font-size: 14px;
+                    margin-bottom: 40px;
+                }
+                .more {     
+                    margin-bottom: 40px;   
+                } 
+            }
+        }
+    }
+    @media (min-width: 767px) and (max-width: 992px) {
+        .biography {
+            margin-bottom: 90px;
+            .about_mueller {
+                .about, .stylist {
+                font-size: 25px;
+                margin-bottom: 22px;
+                }
+                .biografy-mueller{
+                    font-size: 14px;
+                    margin-bottom: 20px;
+                }
+                .more {
+                    font-size: 18px;
+                    width: 200px;
+                    padding: 10px 0;
+                    
+                }
+            }
+        }
+    }
+    
+    @media (min-width: 993px) and (max-width: 1200px) {
+        .biography {
+            margin-bottom: 150px;
+            .about_mueller {
+                .about, .stylist {
+                font-size: 35px;
+                margin-bottom: 25px;
+                }
+                .biografy-mueller{
+                    font-size: 16px;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+    @media (min-width: 1200px) and (max-width: 1520px) {
+        .biography {
+            // margin-bottom: 130px;
+            .about_mueller {
+                .about, .stylist {
+                font-size: 48px;
+                margin-bottom: 30px;
+                }
+                .biografy-mueller{                   
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+    

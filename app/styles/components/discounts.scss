@@ -1,0 +1,41 @@
+.discounts {
+    h3 {
+        font-family: 'Playfair Display', serif;
+        color: $light-pink;
+        font-size: 72px;
+        letter-spacing: 7.2px;
+        margin: 0 auto 80px;
+        // margin-bottom: 250px;
+    }
+    p {
+        max-width: 890px;
+        margin: 0 auto;
+        line-height: 30px;
+        margin-bottom: 90px;
+    }
+   
+}
+@media (max-width: 767px) {                      
+    .discounts h3 {
+        font-size: 40px;  
+        margin-bottom: 30px;
+        }
+    .discounts p {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 767px) and (max-width: 992px) {
+    .discounts h3 {
+        font-size: 35px;  
+        margin-bottom: 30px;
+        }
+    .discounts p {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+           
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+   
+} 

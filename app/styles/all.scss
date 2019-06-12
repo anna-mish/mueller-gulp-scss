@@ -1,0 +1,22 @@
+//global first
+// @import "global/reset";
+// @import "global/fonts";
+// @import "global/variables";
+// @import "global/mixin";
+// @import "global/config";
+
+// //components
+// @import "components/banner";
+// @import "components/nav";
+// @import "components/map";
+// @import "components/article";
+
+@import "global/reset.scss";
+@import "global/_bootstrap";
+@import "global/_variаble";
+
+@import "components/header";
+@import "components/global-style-site";
+@import "components/banner";
+@import "components/biography";
+@import "components/discounts";

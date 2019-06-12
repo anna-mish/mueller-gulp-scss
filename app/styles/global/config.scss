@@ -1,0 +1,15 @@
+html,
+body {
+  font-family: $base-font;
+  box-sizing: border-box;
+}
+
+main,
+header {
+  width: 100%;
+}
+
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+}

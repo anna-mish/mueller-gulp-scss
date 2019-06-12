@@ -1,0 +1,19 @@
+//fonts
+$base-font: PTSans, 'sans-serif';
+
+//colors
+$text-light: rgba(255,255,255,0.9);
+$text-dark: #333;
+
+//font-sizes
+$base-font-size: 16px;
+$font-size-00: $base-font-size;
+$font-size-01: #{$font-size-00 + 10px};
+$font-size-02: #{$font-size-00 + 20px};
+$font-size-03: #{$font-size-00 + 30px};
+
+//- Breakpoints
+$screen-s-min: 320px;
+$screen-m-min: 768px;
+$screen-l-min: 1170px;
+$screen-xl-min: 1550px;
