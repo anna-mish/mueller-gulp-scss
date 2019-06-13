@@ -36,6 +36,38 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@font-face {
+  font-family: PTSans;
+  src: url("/fonts/PT_Sans-Web-Regular.ttf"); }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("/fonts/icons/icomoon.eot?rexgz6");
+  src: url("/fonts/icons/icomoon.eot?rexgz6#iefix") format("embedded-opentype"), url("/fonts/icons/icomoon.ttf?rexgz6") format("truetype"), url("/fonts/icons/icomoon.woff?rexgz6") format("woff"), url("/fonts/icons/icomoon.svg?rexgz6#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  color: #837880;
+  font-size: 32px;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-facebook:before {
+  content: "\e900"; }
+
+.icon-instagram1:before {
+  content: "\e901"; }
+
 /*!
  * Bootstrap v3.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 Twitter, Inc.
