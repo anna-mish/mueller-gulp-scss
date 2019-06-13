@@ -4,17 +4,19 @@
     @@include('./base/head.html')
 
     <body>
-        <header>
-            @@include('./components/header.html')
-        </header>
-        <div>
-            @@include('./components/banner.html')
+        <div class="wrapper">
+            <header>
+                @@include('./components/header.html')
+            </header>
+            <div>
+                @@include('./components/banner.html')
+            </div>
+            <main>
+                @@include('./components/biography.html', {"title": "Page Home"})
+            </main>
+            <section>
+                @@include('./components/discounts.html')
+            </section>
         </div>
-        <main>
-            @@include('./components/biography.html', {"title": "Page Home"})
-        </main>
-        <section>
-            @@include('./components/discounts.html')
-        </section>
     </body>
 </html>
