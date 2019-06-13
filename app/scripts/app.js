@@ -4,6 +4,7 @@ moment.locale('ru');
 
 const onPageLoaded = () => {
     setInterval(ticker, 1000);
+     
 };
 
 const ticker = () => {

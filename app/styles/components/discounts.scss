@@ -1,41 +1,101 @@
 .discounts {
-    h3 {
+    margin-bottom: 250px;
+    .discounts-header h3 {
         font-family: 'Playfair Display', serif;
         color: $light-pink;
         font-size: 72px;
         letter-spacing: 7.2px;
         margin: 0 auto 80px;
-        // margin-bottom: 250px;
     }
-    p {
+    .discounts-header p {
         max-width: 890px;
         margin: 0 auto;
         line-height: 30px;
         margin-bottom: 90px;
     }
-   
-}
-@media (max-width: 767px) {                      
-    .discounts h3 {
-        font-size: 40px;  
-        margin-bottom: 30px;
+    .shop {
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+        .goods{ 
+            width: 20%;
+            margin-bottom: 80px;
+            a {
+                display: inline-block;
+                p {
+                    padding-top: 40px;
+                    margin: 0;
+                }
+            }  
         }
-    .discounts p {
-        font-size: 14px;
-        margin-bottom: 30px;
-    }
+    }     
 }
-@media (min-width: 767px) and (max-width: 992px) {
-    .discounts h3 {
-        font-size: 35px;  
-        margin-bottom: 30px;
+@media (max-width: 767px) {   
+    .discounts {
+        .discounts-header{
+            h3 {
+                font-size: 40px;  
+                margin-bottom: 30px;
+                }
+            p {
+                font-size: 14px;
+                margin-bottom: 30px;
+            }
         }
-    .discounts p {
-        font-size: 14px;
-        margin-bottom: 30px;
-    }
-           
+        .shop {
+            justify-content: center;
+            .goods  {
+                width: 35%;
+                margin-bottom: 35px;
+                a{
+                    p{
+                        padding: 20px 0;
+                    }
+                }
+            }
+        }    
+    }                    
+}
+@media (min-width: 767px) and (max-width: 992px) { 
+    .discounts {
+        .discounts-header{
+            h3 {
+                font-size: 40px;  
+                margin-bottom: 30px;
+                }
+            p {
+                font-size: 14px;
+                margin-bottom: 30px;
+            }
+        }
+        .shop {
+            justify-content: center;
+            .goods  {
+                width: 30%;
+                margin-bottom: 35px;
+                a{
+                    p{
+                        padding: 20px 0;
+                    }
+                }
+            }
+        }    
+    }                  
 }
 @media (min-width: 993px) and (max-width: 1200px) {
-   
+    .discounts {
+        .shop {
+            justify-content: center;
+            .goods  {
+                width: 19%;
+                margin-bottom: 35px;
+                a{
+                    p{
+                        padding: 30px 0;  ;
+                    }
+                }
+            }
+        }    
+    }       
 } 
