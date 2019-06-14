@@ -19,8 +19,13 @@
 
 @import "global/_bootstrap";
 
+@import "global/swiper";
+@import "global/owl.carousel";
+
+
 @import "components/header";
 @import "components/global-style-site";
 @import "components/banner";
 @import "components/biography";
 @import "components/discounts";
+@import "components/partner";
