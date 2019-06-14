@@ -8,7 +8,7 @@
         margin: 0 auto 80px;
     }
     .discounts-header p {
-        max-width: 890px;
+        max-width: 57%;
         margin: 0 auto;
         line-height: 30px;
         margin-bottom: 90px;
@@ -33,12 +33,14 @@
 }
 @media (max-width: 767px) {   
     .discounts {
+        margin-bottom: 70px;
         .discounts-header{
             h3 {
                 font-size: 40px;  
                 margin-bottom: 30px;
                 }
             p {
+                max-width: 70%;
                 font-size: 14px;
                 margin-bottom: 30px;
             }
@@ -59,6 +61,7 @@
 }
 @media (min-width: 767px) and (max-width: 992px) { 
     .discounts {
+        margin-bottom: 70px;
         .discounts-header{
             h3 {
                 font-size: 40px;  
