@@ -1,0 +1,8 @@
+# OS generated files #
+######################
+/node_modules/*
+/build
+/source/*
+/.idea
+/.vscode
+
