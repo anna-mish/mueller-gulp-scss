@@ -31,9 +31,9 @@ const onPageLoaded = () => {
           }
       }
     })
-    
+
 const ticker = () => {
     $('#ticker').html(moment().format('dddd, do MMMM YYYY --- hh:mm:ss'));
 };
 
-$(document).ready(onPageLoaded);
+$(document).ready(onPageLoaded);}
