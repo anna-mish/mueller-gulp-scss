@@ -10,6 +10,11 @@ const onPageLoaded = () => {
             el: '.swiper-pagination',
             clickable: true,
         },
+        nextButton: $('.swiper-button-next'),
+        prevButton: $('.swiper-button-prev'),
+
+        speed: 400,
+        spaceBetween: 30
     });
 
 
