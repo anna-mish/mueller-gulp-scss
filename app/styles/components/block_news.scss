@@ -1,0 +1,125 @@
+.block_news {
+    margin-bottom: 250px;    
+    h3  {
+        font-family: 'Playfair Display', serif;
+        color: $light-pink;
+        font-size: 72px;
+        letter-spacing: 7.2px;
+        margin: 0 auto 80px;
+    }   
+    .swiper {
+        position: relative;
+        margin-bottom: 90px;               
+        .swiper-container {
+            position: relative;
+            width: 90%;
+            height: 100%;
+            margin: 0;
+            .swiper-slide {
+                text-align: left;
+            }
+            .date {
+                line-height: 36px;
+                margin: 0;
+                padding:30px 0 20px 0;
+            }
+            .slider-header {
+                font-family: "Playfair Display";
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 40px;
+            }
+        }
+        .swiper-button-next {
+            position: absolute;
+            top: 300px;
+            left: auto;
+            right: 5px;
+            width: 130px;
+            height: 70px;
+            background-image: none;
+            border-top: 1px solid $light;   
+            border-bottom: 1px solid $light;  
+            z-index: 20;
+            &:before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 49px;
+                height: 2px;
+                background-color: $light;
+            }
+            &:after {
+                content: "";
+                position: absolute;
+                top: 22px;                
+                right: 43px;
+                width: 25px;
+                width: 25px;
+                height: 25px;                           
+                border-right: 2px solid  $light;
+                border-top: 2px solid  $light;                   
+                transform: rotate(45deg);  
+            }
+        }       
+        .swiper-button-prev {
+            position: absolute;
+            top: auto;
+            left: auto;
+            bottom: 205px;
+            right: 5px;
+            width: 130px;
+            height: 70px;
+            background-image: none;
+            border-top: 1px solid $light;   
+            border-bottom: 1px solid $light;  
+            z-index: 20;
+            &:before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 49px;
+                height: 2px;
+                background-color: $light;
+            }
+            &:after {
+                content: "";
+                position: absolute;
+                top: 22px;
+                left: 42px;
+                width: 25px;
+                height: 25px;                                
+                border-right: 2px solid  $light;
+                border-top: 2px solid  $light;
+                transform: rotate(-135deg);        
+            }
+        }                
+    }      
+}
+@media (max-width: 767px) {   
+    .block_news{    
+        margin-bottom: 70px;  
+            h3 {
+            font-size: 40px;  
+            margin-bottom: 30px;
+            }
+    }
+             
+}
+@media (min-width: 767px) and (max-width: 992px) { 
+    .block_news{
+        h3 {
+        font-size: 40px;  
+        margin-bottom: 30px;
+            }       
+    }                             
+}
+// @media (min-width: 993px) and (max-width: 1200px) {
+//     .block_news{
+        
+//     }         
+// } 

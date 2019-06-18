@@ -13,8 +13,25 @@ const onPageLoaded = () => {
         nextButton: $('.swiper-button-next'),
         prevButton: $('.swiper-button-prev'),
 
-        speed: 400,
-        spaceBetween: 30
+        breakpointsInverse: true,
+        breakpoints: {
+            320: {
+            slidesPerView: 1,
+            spaceBetween: 15
+            },
+            767: {
+            slidesPerView: 2,
+            spaceBetween: 15
+            },
+            992: {
+            slidesPerView: 2,
+            spaceBetween: 15
+            },
+            1200: {
+            slidesPerView: 3,
+            spaceBetween: 30
+            }
+        }
     });
 
 
