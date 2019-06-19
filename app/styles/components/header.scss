@@ -1,5 +1,4 @@
 header {
-    
     .logo, .soc {
         height: 160px;        
     }
@@ -47,8 +46,8 @@ header {
     }
     .soc{
         display: flex;
+        justify-content: flex-end;
         align-items: center;
-        padding-left: 65px;
         .lang, .soc-icon {
             display: flex;
             margin-bottom: 0;
@@ -68,7 +67,7 @@ header {
             border-right: 2px solid $text;
         }        
     }
-    @media (max-width: 767px) {               
+    @media (max-width: 767px) {            
         .logo, .soc, .navbar-header {
             height: 90px;
         }           
@@ -76,6 +75,7 @@ header {
             margin-top: 30px;
         }
         .soc {
+            justify-content: flex-start;
             padding-left: 15px;
         }
         .nav {
@@ -91,10 +91,8 @@ header {
         }      
         .inner-w {
             width: 100%;
-        }         
-        // .collapse{
-        //     display: block;
-        // }
+        }   
+    
     }
     @media (min-width: 767px) and (max-width: 992px) {
         .logo {

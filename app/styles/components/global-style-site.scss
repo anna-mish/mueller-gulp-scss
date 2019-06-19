@@ -7,13 +7,17 @@ body {
     font-weight: 400; 
     color: #837880;
 }
+html{
+    scroll-behavior: smooth;
+}
+
 .wrapper {
     max-width: 1800px;
     margin: 0 auto;
 }
-.block-wrap {
-    max-width: 100%;
-}
+// .block-wrap {
+//     max-width: 100%;
+// }
 .block {
     max-width: 1570px;
     margin: 0 auto;
@@ -39,7 +43,22 @@ a:hover, a:focus {
     padding: 25px 0;
     color: $light;
     border-top: 1px solid $light;
-    border-bottom: 1px solid $light;
-    text-align: center;
+    border-bottom: 1px solid $light;    
     text-transform: uppercase;            
+}
+
+@media (max-width: 767px){
+    .more {         
+        font-size: 20px;         
+        width: 220px;
+        padding: 15px 0;                  
+    }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+    .more {         
+        font-size: 22px;         
+        width: 240px;
+        padding: 20px 0;                  
+    }
 }
