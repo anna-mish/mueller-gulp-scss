@@ -39,8 +39,9 @@
         }
         .swiper-button-next {
             position: absolute;
-            top: 85px;
+            top: auto;
             left: auto;
+            bottom: 100px;
             right: 5px;
             width: 130px;
             height: 70px;
@@ -131,16 +132,16 @@
             }
         }
         .swiper{
-            margin-bottom: 110px;    
+            margin-bottom: 110px;   
+            padding: 0 20px;   
             .swiper-container {               
                 width: 100%;
                 .swiper-slide img {
-                    width: 100%;          
+                    width: 80%;          
                 } 
             }   
-            .swiper-button-next {
-                top: 268px;
-                left: auto;
+            .swiper-button-next {  
+                bottom: -64px;
                 right: 35px;  
                 width: 100px;
                 height: 50px; 
@@ -158,10 +159,8 @@
                 }             
             }
             .swiper-button-prev{
-                // top: auto;
                 left: 35px;
                 bottom: -64px;
-                // right: auto;  
                 width: 100px;
                 height: 50px; 
                 &:before {                  
@@ -205,7 +204,8 @@
             }
         }
         .swiper{
-            margin-bottom: 100px;               
+            margin-bottom: 100px;   
+            padding: 0 20px;            
             .swiper-container {
                 width: 100%;
             }
@@ -213,8 +213,8 @@
                 width: 90%;          
             }            
             .swiper-button-next {
-                top: 230px;
-                left: 707px;
+                bottom: -64px;
+                right: 165px;  
                 // right: 35px;  
                 width: 100px;
                 height: 50px; 
@@ -233,7 +233,7 @@
             }
             .swiper-button-prev{
                 // top: auto;
-                left: 35px;
+                left: 165px;
                 bottom: -64px;
                 // right: auto;  
                 width: 100px;
@@ -260,6 +260,7 @@
 @media (min-width: 993px) and (max-width: 1200px) {
     .partner {
         .cooperation{
+            padding: 0 25px;  
             p {        
             font-size: 35px;  
             line-height: 49px;
@@ -268,6 +269,54 @@
                 max-width: 70%;
                 font-size: 14px;   
             }  
+            
         }   
+        .swiper{
+            margin-bottom: 100px;   
+            padding: 0 20px;            
+            .swiper-container {
+                width: 90%;
+            }
+            .swiper-slide img {
+                width: 95%;          
+                }
+            .swiper-button-next {
+                bottom: 0px;
+                right: 30px;
+                width: 80px;
+                height: 50px; 
+                &:before {                  
+                    width: 35px;
+                    height: 1px;
+                }
+                &:after {
+                    top: 14px;                
+                    right: 25px;
+                    width: 20px;
+                    height: 20px;                           
+                    border-right: 1px solid  $light;
+                    border-top: 1px solid  $light;     
+                }             
+            }
+            .swiper-button-prev{
+                bottom: 70px;
+                right: 30px; 
+                width: 80px;
+                height: 50px; 
+                &:before {                  
+                    width: 35px;
+                    height: 1px;
+                }
+                &:after {
+                    top: 14px;                
+                    right: auto;
+                    left: 25px;
+                    width: 20px;
+                    height: 20px;                           
+                    border-right: 1px solid  $light;
+                    border-top: 1px solid  $light;     
+                }             
+             }          
+        }
     }         
 }
