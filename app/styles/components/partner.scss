@@ -30,7 +30,8 @@
     }
     .swiper{
         position: relative;
-        margin-bottom: 90px;               
+        margin-bottom: 90px;     
+        padding: 0 20px;          
         .swiper-container {
             position: relative;
             width: 90%;
@@ -182,7 +183,8 @@
     }
 } 
 @media (min-width: 767px) and (max-width: 992px) { 
-    .partner {        
+    .partner {                
+        margin-bottom: 100px;  
         h3 {
             font-size: 40px;  
             margin-bottom: 30px;
@@ -258,7 +260,8 @@
     }                             
 }
 @media (min-width: 993px) and (max-width: 1200px) {
-    .partner {
+    .partner {        
+        margin-bottom: 150px;  
         .cooperation{
             padding: 0 25px;  
             p {        
