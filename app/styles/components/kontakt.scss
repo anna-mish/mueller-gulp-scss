@@ -1,0 +1,243 @@
+.kontakt {
+    margin-bottom: 250px;    
+    h3  {
+        font-family: 'Playfair Display', serif;
+        color: $light-pink;
+        font-size: 72px;
+        letter-spacing: 7.2px;
+        margin: 0 auto 125px;
+        text-align: center;
+    } 
+    .ask_a_question {
+        padding-right: 70px;
+        h4{
+            font-family: "Playfair Display";
+            font-size: 56px;
+            font-weight: 400;
+            line-height: 66px;
+            margin-top: 0;
+            margin-bottom: 40px;
+        }
+        p {
+            line-height: 30px;
+        }
+    }
+    .kontakt-form{
+        padding: 0 15px;       
+    }
+    .form_for_question {
+        position: relative;
+        max-width: 1030px;
+        height: 500px;
+        border: 1px solid $text;
+        padding: 50px;        
+        input {
+            width: 47%;            
+        }
+        input[type="text"], input[type="e-mail"]{            
+            padding: 5px 0;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid $light;
+            margin-bottom: 35px;
+        }
+        input[type="text"] {
+            margin-right: 25px;
+        }
+        textarea {
+            width: 100%;
+            padding: 5px;            
+            outline: none;
+            resize: none;
+            border: none;
+            border-bottom: 1px solid $light; 
+        }
+        input[type="text"]::placeholder, 
+        input[type="e-mail"]::placeholder,
+        textarea::placeholder{
+            color: $light;
+            line-height: 82px;
+            text-transform: uppercase; 
+            overflow: auto;
+        }
+        
+        button {
+            position: absolute;
+            bottom: 50px;
+            right: 50px;
+            background-color: transparent;
+            outline: none;
+            border-left: none;
+            border-right: none;  
+        }
+    }   
+}
+
+.button_up {
+    position: relative;        
+    a {
+        display: block;
+        position: absolute;
+        bottom: 80px;       
+        right: 10px;
+        width: 88px;
+        height: 125px;
+        background-color: #d1b4b6;
+        text-decoration: none;
+        &:before{
+            content: "";
+            position: absolute;
+            width: 2px;
+            height: 49px;
+            background-color: #ffffff;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        &:after{
+            content: "";
+            position: absolute;
+            top: 41px;
+            left: 32px;
+            width: 25px;
+            height: 25px;                           
+            border-right: 2px solid  #ffffff;
+            border-top: 2px solid #ffffff;                   
+            transform: rotate(-45deg); 
+        }
+        
+    }
+}
+@media (max-width: 767px) {   
+    .kontakt {    
+        margin-bottom: 160px;  
+        h3 {
+            font-size: 40px;  
+            margin-bottom: 30px;
+        }
+        .ask_a_question {
+            text-align: center;
+            padding: 0 20px;
+            margin-bottom: 30px;
+            h4 {
+                font-size: 35px;
+                margin-bottom: 25px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+        .kontakt-form{
+            padding: 0 30px; 
+        }
+        .form_for_question {            
+            height: 350px;           
+            padding: 20px 50px;        
+            input {
+                width: 100%;            
+            }
+            input[type="text"], input[type="e-mail"]{            
+                 
+                margin-bottom: 20px;
+            }
+            input[type="text"] {
+                margin-right: 0;
+            }
+            textarea {
+                height: 85px;
+            }            
+            button {
+                bottom: 20px;
+            }
+        }
+    }
+    .button_up a{
+        bottom: 25px;       
+        left: 50%;
+        transform: translateX(-50%);
+        right: auto;
+        width: 68px;
+        height: 100px;
+        &:after {
+            top: 31px;
+            left: 22px;
+        }
+    }
+}
+@media (min-width: 767px) and (max-width: 992px) { 
+    .kontakt {                
+        margin-bottom: 160px;  
+        h3 {
+            font-size: 40px;  
+            margin-bottom: 30px;
+        }
+        .ask_a_question {
+            text-align: center;
+            padding: 0 20px;
+            margin-bottom: 30px;
+            h4 {
+                font-size: 35px;
+                margin-bottom: 25px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+        .kontakt-form{
+            padding: 0 30px; 
+        }
+        .kontakt-form{
+            padding: 0 30px; 
+        }
+        .form_for_question {            
+            height: 420px;           
+            padding: 50px 50px;        
+            input {
+                width: 100%;            
+            }
+            input[type="text"] {
+                margin-right: 0;
+            }  
+            button {
+                bottom: 20px;          
+            }
+        }
+    }
+    .button_up a{
+        bottom: 25px;       
+        left: 50%;
+        transform: translateX(-50%);
+        right: auto;
+        width: 68px;
+        height: 100px;
+        &:after {
+            top: 31px;
+            left: 22px;
+        }
+    }    
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+    .kontakt{        
+        margin-bottom: 200px;  
+        
+        .ask_a_question {          
+            padding: 0 20px;           
+            h4 {
+                font-size: 35px;
+                margin-bottom: 25px;
+                line-height: 50px;
+            }
+            p{
+                font-size: 16px;
+            }         
+        }        
+        .form_for_question{
+            height: 400px;     
+        } 
+    }
+    .button_up a{
+        bottom: 50%;
+        right: 15px;  
+        transform: translateY(-50%);             
+        }      
+}
