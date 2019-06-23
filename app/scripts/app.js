@@ -1,5 +1,4 @@
 import $ from './libs/jquery'
-import moment from './libs/moment';
 import Swiper from './libs/swiper';
 
 const onPageLoaded = () => {
@@ -10,9 +9,10 @@ const onPageLoaded = () => {
             el: '.swiper-pagination',
             clickable: true,
         },
-        nextButton: $('.swiper-button-next'),
-        prevButton: $('.swiper-button-prev'),
-
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
         breakpointsInverse: true,
         breakpoints: {
             320: {
@@ -33,27 +33,6 @@ const onPageLoaded = () => {
             }
         }
     });
-
-
-    // $('.owl-carousel').owlCarousel({
-    //     loop: true,
-    //     margin: 10,
-    //     nav: true,
-    //     responsive: {
-    //         320: {
-    //             items: 1
-    //         },
-    //         767: {
-    //             items: 2
-    //         },
-    //         992: {
-    //             items: 3
-    //         }
-    //     }
-    // })
-};
-const ticker = () => {
-    $('#ticker').html(moment().format('dddd, do MMMM YYYY --- hh:mm:ss'));
 };
 
 $(document).ready(onPageLoaded);
