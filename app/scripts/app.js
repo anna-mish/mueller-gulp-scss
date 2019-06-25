@@ -17,7 +17,7 @@ const onPageLoaded = () => {
         breakpoints: {
             320: {
             slidesPerView: 1,
-            spaceBetween: 15
+            spaceBetween: 0
             },
             767: {
             slidesPerView: 2,
@@ -25,7 +25,7 @@ const onPageLoaded = () => {
             },
             992: {
             slidesPerView: 3,
-            spaceBetween: 15
+            spaceBetween: 30
             },
             1200: {
             slidesPerView: 3,
