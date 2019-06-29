@@ -5,19 +5,10 @@
 
     <body>
         <div class="wrapper">
-            <header>
                 @@include('./components/header.html')
-            </header>
-            <div>
                 @@include('./components/banner.html')
-            </div>
-            <main>
-                @@include('./components/biography.html', {"title": "Page Home"})
-            </main>
-            <section>
-                @@include('./components/discounts.html')
-            </section>
-
+                @@include('./components/biography.html')
+                @@include('./components/discounts.html') 
                 @@include('./components/partner.html')
                 @@include('./components/block_news.html')
                 @@include('./components/kontakt.html')
