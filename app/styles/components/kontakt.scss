@@ -72,7 +72,6 @@
         }
     }   
 }
-
 .button_up {
     position: relative;        
     a {
@@ -105,7 +104,6 @@
             border-top: 2px solid #ffffff;                   
             transform: rotate(-45deg); 
         }
-        
     }
 }
 @media (max-width: 767px) {   
@@ -137,7 +135,7 @@
                 width: 100%;            
             }
             input[type="text"], input[type="e-mail"]{            
-                 
+                    
                 margin-bottom: 20px;
             }
             input[type="text"] {

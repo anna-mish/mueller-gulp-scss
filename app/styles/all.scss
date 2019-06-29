@@ -1,26 +1,9 @@
-//global first
-// @import "global/reset";
-// @import "global/fonts";
-// @import "global/variables";
-// @import "global/mixin";
-// @import "global/config";
-
-// //components
-// @import "components/banner";
-// @import "components/nav";
-// @import "components/map";
-// @import "components/article";
-
 @import "global/reset.scss";
 @import "global/_variаble";
-
 @import "global/fonts";
 @import "global/style-icon";
-
 @import "global/_bootstrap";
-
 @import "global/swiper";
-@import "global/owl.carousel";
 
 
 @import "components/header";

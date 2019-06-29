@@ -1,5 +1,5 @@
 * {
-    box-shadow: border-box;
+    box-sizing: border-box;
 }
 body {
     font-size: 18px;
@@ -10,19 +10,14 @@ body {
 html{
     scroll-behavior: smooth;
 }
-
 .wrapper {
     max-width: 1800px;
     margin: 0 auto;
 }
-// .block-wrap {
-//     max-width: 100%;
-// }
 .block {
     max-width: 1570px;
     margin: 0 auto;
 } 
-
 a{  
     display: block;
     cursor: pointer;    
@@ -46,7 +41,6 @@ a:hover, a:focus {
     border-bottom: 1px solid $light;    
     text-transform: uppercase;            
 }
-
 @media (max-width: 767px){
     .more {         
         font-size: 20px;         
@@ -54,7 +48,6 @@ a:hover, a:focus {
         padding: 15px 0;                  
     }
 }
-
 @media (min-width: 767px) and (max-width: 992px) {
     .more {         
         font-size: 22px;         
