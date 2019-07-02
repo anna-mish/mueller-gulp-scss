@@ -38,13 +38,11 @@
             margin: 0;
             padding-right: 160px;
             box-sizing: border-box;
-            .swiper-wrapper{
                 .swiper-slide{
                     img {
                         width: 100%;
                     }
                 }
-            }
             .swiper-buttons {
                 display: flex;
                 flex-direction: column;
@@ -284,6 +282,8 @@
             .swiper-container{
                 padding-right: 130px;
                 .swiper-buttons{   
+                    width: 130px;
+                    right: -27px;
                     .swiper-button-next,
                     .swiper-button-prev{
                         width: 100px;

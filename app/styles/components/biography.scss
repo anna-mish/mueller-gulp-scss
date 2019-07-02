@@ -3,10 +3,10 @@
     color: $light-pink;
     margin-bottom: 250px;
     .foto-mueller {
+        padding-right: 110px;
         img{
             max-width: 100%;
-            padding-right: 110px;
-            }
+        }
     }  
     .about_mueller {
         .about {
@@ -37,9 +37,9 @@
             margin-bottom: 90px;
         .foto-mueller{                
             text-align: center;
+            padding-right: 0;
             img {
                 max-width: 60%;
-                padding-right: 0;
             }
         } 
         .about_mueller {
@@ -61,8 +61,8 @@
 @media (min-width: 767px) and (max-width: 992px) {
     .biography {
         margin-bottom: 90px;
-        .foto-mueller img {                    
-            padding-right: 10px;
+        .foto-mueller {                    
+            padding-right: 15px;
             }
         .about_mueller {
             .about, .stylist {
@@ -79,8 +79,12 @@
 @media (min-width: 993px) and (max-width: 1200px) {
     .biography {
         margin-bottom: 150px;
-        .foto-mueller img {                    
-            padding-right: 0;
+        .foto-mueller {                    
+            padding-right: 15px;
+            text-align: center;
+                img{
+                    width: 95%;
+                }
             }
         .about_mueller {
             .about, .stylist {
@@ -96,9 +100,6 @@
 }
 @media (min-width: 1200px) and (max-width: 1520px) {
     .biography {
-        .foto-mueller img {                    
-            padding-right: 0;
-            }
         .about_mueller {
             .about, .stylist {
             font-size: 48px;

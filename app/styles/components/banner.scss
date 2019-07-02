@@ -1,8 +1,7 @@
-.bg-margin {
-    margin-bottom: 250px;
-    .banner {   
+.banner {   
     position: relative;                 
     background: url(../images/banner.png) center no-repeat/cover;    
+    margin-bottom: 250px;
        &:after {
         content: "";
         display: block;
@@ -22,7 +21,7 @@
             p {
                 font-family: 'Playfair Display', serif;
                 font-size: 90px;
-                margin-bottom: 100px;
+                padding-bottom: 75px;
             }
             .more {
                 color: $text;
@@ -31,34 +30,30 @@
             }                    
         }
     }  
-}
-
 @media (max-width: 767px) {
-    .bg-margin{
-        margin: 20px 0 50px 0;
-        .banner {
-            .banner__text p{
-            font-size: 40px;  
-            margin-bottom: 40px;            
-            }
+    .banner {
+        margin: 40px 0 50px 0;
+        .banner__text p{
+        font-size: 40px;  
+        padding-bottom: 40px;            
         }
-    }     
+    }    
 }
 @media (min-width: 767px) and (max-width: 992px) {
-    .bg-margin{
+    .banner{
         margin-bottom: 70px;
+        .banner__text p{
+            font-size: 60px;  
+            padding-bottom: 50px;            
+        } 
     }
-    .bg-margin .banner .banner__text p{
-        font-size: 60px;  
-        margin-bottom: 60px;            
-    } 
 }
 @media (min-width: 993px) and (max-width: 1200px) {
-    .bg-margin{
+    .banner{
         margin-bottom: 130px;
-    }
-    .bg-margin .banner .banner__text p {
-        font-size: 80px;  
-        margin-bottom: 60px;            
+        .banner__text p {
+            font-size: 80px;  
+            padding-bottom: 60px;            
+        }
     }
 }
