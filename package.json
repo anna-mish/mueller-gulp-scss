@@ -28,8 +28,8 @@
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "run-sequence": "^2.2.1",
-    "webpack": "^4.32.2",
-    "webpack-stream": "^5.2.1"
+    "webpack": "^5.75.0",
+    "webpack-stream": "^7.0.0"
   },
   "dependencies": {
     "node-sass": "^4.12.0"
